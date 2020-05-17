@@ -1,4 +1,5 @@
-users=(support godsom lunark pakkapon need_yakiniku nontawat heisenberg supasorn mint penguin w nakorn tan)
+#users=(support godsom lunark pakkapon need_yakiniku nontawat heisenberg suttisak supasorn mint penguin w nakorn tan)
+users=(pakkapon suttisak heisenberg supasorn)
 
 # add vll for environment setup
 sudo useradd vll -m -p ${password}
