@@ -1,0 +1,6 @@
+opencv-python
+scikit-image
+scipy
+pandas
+netiface
+numpy
