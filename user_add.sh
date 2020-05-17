@@ -12,6 +12,6 @@ do
     sudo useradd -m ${name}
     sudo passwd ${name}
     sudo usermod -aG vll ${name}
-    usermod -s /bin/bash ${name}
+    sudo usermod -s /bin/bash ${name}
 done
 
