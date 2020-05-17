@@ -1,6 +1,13 @@
 opencv-python
+imageio
 scikit-image
+IPython
+tqdm
 scipy
 pandas
-netiface
+netifaces
+pytorch_msssim
+tensorboard
 numpy
+matplotlib
+scipy
