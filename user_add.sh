@@ -12,6 +12,7 @@ do
     sudo useradd -m ${name}
     sudo passwd ${name}
     sudo usermod -aG vll ${name}
+    sudo usermod -aG sudo ${name}
     sudo usermod -s /bin/bash ${name}
 done
 
