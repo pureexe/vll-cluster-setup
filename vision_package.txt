@@ -11,3 +11,4 @@ tensorboard
 numpy
 matplotlib
 scipy
+kornia
