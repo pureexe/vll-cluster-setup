@@ -1,6 +1,7 @@
 opencv-python
 imageio
 scikit-image
+scikit-learn
 IPython
 tqdm
 scipy
