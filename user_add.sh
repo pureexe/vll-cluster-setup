@@ -1,4 +1,4 @@
-users=(support godsom lunark pakkapon need_yakiniku nontawat heisenberg suttisak supasorn mint penguin w nakorn tan)
+users=(godsom lunark pakkapon need_yakiniku nontawat heisenberg suttisak supasorn mint penguin w nakorn tan)
 #users=(pakkapon suttisak heisenberg supasorn)
 
 # add vll for group environment setup
