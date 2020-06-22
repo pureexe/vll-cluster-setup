@@ -1,9 +1,13 @@
-#users=(support godsom lunark pakkapon need_yakiniku nontawat heisenberg suttisak supasorn mint penguin w nakorn tan)
-users=(pakkapon suttisak heisenberg supasorn)
+users=(support godsom lunark pakkapon need_yakiniku nontawat heisenberg suttisak supasorn mint penguin w nakorn tan)
+#users=(pakkapon suttisak heisenberg supasorn)
 
 # add vll for environment setup
 sudo useradd -m vll
-sudo passwd vll
+# sudo passwd vll
+sudo groupadd vll
+sudo mkdir /home/vll/
+sudo chmod 777 /home/vll/
+sudo chgrp -R vll /home/vll/
 sudo usermod -aG vll ${USER}
 
 # add all user in VLL
