@@ -11,6 +11,5 @@ if test -f "/data/"
 then
   sudo cp -r /var/www/html/ /data/html/
   sudo rm -rf /var/www/html/
-  sudo mkdir /var/www/html/
-  sudo ln -s /data/html/ /var/www/html/
+  sudo ln -s /data/html/ /var/www/  
 fi
