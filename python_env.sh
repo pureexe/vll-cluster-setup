@@ -1,4 +1,4 @@
-sudo apt install python3 python3-pip virtualenv apache2 tmux curl sshfs sshpass
+sudo apt install python3 python3-pip virtualenv apache2 tmux curl sshfs sshpass libsm6 libxrender1 libfontconfig1
 sudo virtualenv --system-site-packages -p python3 /home/vll/venv_pytorch/
 sudo chmod -R 777 /home/vll/venv_pytorch
 source /home/vll/venv_pytorch/bin/activate
