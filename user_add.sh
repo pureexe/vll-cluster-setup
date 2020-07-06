@@ -1,6 +1,12 @@
 users=(godsom lunark pakkapon need_yakiniku nontawat heisenberg suttisak supasorn mint penguin w nakorn tan)
 #users=(pakkapon suttisak heisenberg supasorn)
 
+if ! [test -f "password.txt"] then
+    echo "please create password.txt"
+    exit
+fi
+
+
 # add vll for group environment setup
 sudo groupadd vll
 sudo mkdir /home/vll/
