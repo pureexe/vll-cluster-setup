@@ -6,6 +6,11 @@ pip install torch===1.5.0 torchvision===0.6.0 -f https://download.pytorch.org/wh
 pip install -r ${PWD}/vision_package.txt
 pip install git+https://github.com/pureexe/cluster-dataset
 deactivate
-sudo cp -r /var/www/html/ /data/html/
-sudo rm -rf /var/www/html/
-sudo ln -s /data/html/ /var/www/html/
+
+if test -f "/data/"
+then
+  sudo cp -r /var/www/html/ /data/html/
+  sudo rm -rf /var/www/html/
+  sudo mkdir /var/www/html/
+  sudo ln -s /data/html/ /var/www/html/
+fi
