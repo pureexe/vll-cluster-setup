@@ -3,15 +3,11 @@ imageio
 scikit-image
 scikit-learn
 IPython
-tqdm
 scipy
 pandas
 netifaces
-pytorch_msssim
 tensorboard
 numpy
 matplotlib
 scipy
-kornia
 tqdm
-torchvision
