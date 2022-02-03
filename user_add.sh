@@ -1,4 +1,4 @@
-users=(godsom lunark pakkapon need_yakiniku nontawat heisenberg suttisak supasorn mint penguin w nakorn tan palakons)
+users=(godsom lunark penguin pakkapon need_yakiniku nontawat heisenberg suttisak supasorn mint penguin w nakorn tan palakons nessessence)
 #users=(pakkapon suttisak heisenberg supasorn)
 
 if test ! -f "password.txt"
