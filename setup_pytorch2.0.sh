@@ -44,6 +44,7 @@ pip install IPython==8.14.0
 pip install tensorboard==2.13.0
 pip install tensorboardX==2.6.1
 pip install matplotlib==3.7.2
+pip install natsort
 
 # cleaning up
 deactivate
