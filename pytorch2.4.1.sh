@@ -1,4 +1,4 @@
-sudo apt install virtualenv apache2 tmux curl sshfs sshpass libsm6 libxrender1 libfontconfig1 ffmpeg lib-openexr
+sudo apt install virtualenv apache2 tmux curl sshfs sshpass libsm6 libxrender1 libfontconfig1 ffmpeg libopenexr-dev
 
 sudo virtualenv --system-site-packages -p python3.11 /home/vll/venv_pytorch2.4.1
 
